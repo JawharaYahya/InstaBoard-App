@@ -1,3 +1,17 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    min-height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
 .App {
   text-align: center;
 }
