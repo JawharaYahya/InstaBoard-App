@@ -5,12 +5,11 @@
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    background-color: rgb(26, 11, 11);
 }
 h2{
 display: flex;
 justify-content: center;
-margin: 30px 10px 0px 0px;
+margin: 10px 10px 0px 0px;
 }
 
 img{
@@ -23,9 +22,37 @@ transition: transform 0.3s ease-in-out;
 img:hover {
   transform: scale(1.1);
 }
-#LoadMoreBtn{
+
+.searchSection{
     display: flex;
-justify-content: center;
-justify-items: center;
-margin: 10px;;
+    flex-wrap: wrap;
+   justify-content: center;
+   margin-bottom: 5px;
+}
+#search{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+.seeMorebtn{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+#LoadMoreBtn{
+margin-top: 14px;
+
+}
+.app {
+  background: linear-gradient(to right, #d19cf5, #fa7d7d, #fcb045);
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+h2 {
+  color: white;
 }

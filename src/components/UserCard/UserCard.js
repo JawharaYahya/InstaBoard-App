@@ -1,10 +1,10 @@
+import { Link } from 'react-router-dom';
 import './UserCard.css';
 import { useState } from "react";
 
-export default function UserCard({name, email,picture}) {
+export default function UserCard({name, email,picture,user}) {
     const [likes , setLikes]= useState(0);
     const [showEmail , setshowEmail]= useState(false);
-    
 
     return(
 
@@ -16,6 +16,7 @@ export default function UserCard({name, email,picture}) {
 <h3>Likes {likes}</h3>
 <button onClick={()=>{setLikes(likes+1)}}>Like</button>
 <button onClick={()=>{setLikes(likes-1)}}>Unlike</button>
+<Link to={`/team/${user.login.uuid}`}>View Profile</Link>
 
 </div>
 

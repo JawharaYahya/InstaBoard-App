@@ -1,0 +1,19 @@
+
+.dark{
+  background: linear-gradient(to right, #000000, #1a1a1a, #2c2c2c);
+  color: #f1f1f1;
+}
+
+.dark h2 {
+  color: #f1f1f1;
+}
+.dark.userList{
+        background-color: rgb(71, 36, 9);
+
+}
+.dark input,
+.dark button {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
