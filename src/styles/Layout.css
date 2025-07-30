@@ -1,19 +1,68 @@
 
+.dark, .light {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+
+.dark main, .light main {
+  flex: 1;
+  width: 100%;
+}
 .dark{
   background: linear-gradient(to right, #000000, #1a1a1a, #2c2c2c);
   color: #f1f1f1;
+  min-height: 100vh;
+ 
 }
 
-.dark h2 {
-  color: #f1f1f1;
+.dark h2,
+.dark h3,
+.dark p,
+.dark a {
+color: #f04444;
+;
 }
-.dark.userList{
-        background-color: rgb(71, 36, 9);
 
-}
 .dark input,
 .dark button {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(29, 24, 24, 0.1);
   color: #f1f1f1;
   border: 1px solid #444;
+}
+.dark #userList{
+        background-color: rgb(53, 48, 44);
+}
+.light {
+    background: linear-gradient(to right, #833ab4, #f04444, #fcb045);
+  color: white;
+  min-height: 100vh;
+}
+.navBar{
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+  background: wheat;
+  margin: 0px;
+  position: sticky;
+margin-bottom: 15px;
+
+}
+
+.link{
+  color: #f04444;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.footer{
+ background: wheat;
+   height: 40px;
+   color: #f04444;
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
 }

@@ -22,7 +22,7 @@ export default function TeamDetails(){
     return (
 <div className="teamDetailsContainer">
 <h3>{first} {last}'s profile</h3>
-<img src={large} alt="User Profile"/>
+<img src={large} alt="User Profile" width={100}/>
 <p><strong>Email:</strong> {email}</p>
 <p><strong>Username:</strong> {username}</p>
 <p><strong>Phone:</strong> {phone}</p>
