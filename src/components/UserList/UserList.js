@@ -34,12 +34,9 @@ const filterUsers= users.filter((user)=>`${user.name.first} ${user.name.last}`.t
     
     
      <div id="userList">
-         {filterUsers.map((user) => (
+         {filterUsers.map((user,index) => (
         <UserCard
-        
-          name={`${user.name.first} ${user.name.last}`}
-          email={user.email}
-          picture={user.picture.large}
+        key={index} user={user}
         />
       ))}
     </div>

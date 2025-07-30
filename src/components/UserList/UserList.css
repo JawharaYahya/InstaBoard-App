@@ -45,13 +45,7 @@ img:hover {
 margin-top: 14px;
 
 }
-.app {
-  background: linear-gradient(to right, #d19cf5, #fa7d7d, #fcb045);
-  color: white;
-  min-height: 100vh;
-  padding: 20px;
-  transition: all 0.3s ease;
-}
+
 
 h2 {
   color: white;

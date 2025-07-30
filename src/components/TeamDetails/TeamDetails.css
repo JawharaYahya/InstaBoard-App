@@ -1,0 +1,15 @@
+.teamDetailsContainer{
+  background: rgba(255, 255, 255, 0.1); 
+width:350px;
+margin: 20px;
+padding: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+border: 3px solid rgb(241, 238, 241);
+border-radius: 15px;
+  color: #fff;
+  box-sizing: border-box;
+}
